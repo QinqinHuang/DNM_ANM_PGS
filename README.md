@@ -13,3 +13,4 @@ We used unrelated individuals with European ancestry defined by GEL. For PGS, we
 
 Sanity check: the paternal model, regressing paternal counts against maternal PGS, and regressing maternal counts against paternal PGS.
 
+For rare variant burden score analysis, we calculated a weighted burden score considering all ANM-associated genes using effect sizes estimated in the exome-wide association analysis. We weighted missense variants and PTVs by their corresponding masks. Higher weighted burden score indicates later ANM. In this analysis, we replaced the PGS with the burden score in the above models and ran poisson regression. We also fitted each ANM gene separately where carriers are coded as 1 and non-carriers are coded as 0. 
